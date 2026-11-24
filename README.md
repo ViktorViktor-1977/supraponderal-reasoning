@@ -62,3 +62,8 @@
 - A growing dataset of "task → link → solution" examples.
 - An SFT dataset in JSONL format (11 seed examples) for fine-tuning models on supraponderal reasoning.
 
+## Автор
+
+**Виктор [Кондрашевич]** (GitHub: [@ViktorViktor-1977](https://github.com/ViktorViktor-1977))  
+Автор методологии Supraponderal Reasoning и концепции надвесовых связей.  
+Первая публикация: 2026 г. Лицензия: MIT.
