@@ -45,3 +45,10 @@
 ## Вклад
 
 Проект открыт: приветствуются новые типы связей, кейсы, где подход работает лучше обычной оптимизации, и критика формализации.
+
+## English
+
+**Supraponderal Reasoning** — a methodology where solutions are found through structural
+cross-domain links rather than parameter tuning. Includes a closed dictionary of 21 link
+types (resonance, isomorphism, game theory, gradients...) and a growing dataset of
+"task → link → solution" examples for LLM fine-tuning.
