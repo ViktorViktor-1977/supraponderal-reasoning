@@ -46,9 +46,19 @@
 
 Проект открыт: приветствуются новые типы связей, кейсы, где подход работает лучше обычной оптимизации, и критика формализации.
 
+## Датасет для обучения
+
+В репозитории есть два формата данных — для работы и для обучения моделей:
+
+- **[data/mapping.tsv](data/mapping.tsv)** — рабочая таблица: связь, домены, задача, структурное решение, параметры. Сюда удобно добавлять новые кейсы по мере появления.
+- **[data/sft_dataset.jsonl](data/sft_dataset.jsonl)** — датасет в формате JSONL для fine-tuning: 11 обучающих примеров (инструктивный шаблон, 2 полных кейса, 8 задач на выбор типа связи). Каждая строка — готовый пример для пайплайна обучения.
+
+---
+
 ## English
 
-**Supraponderal Reasoning** — a methodology where solutions are found through structural
-cross-domain links rather than parameter tuning. Includes a closed dictionary of 21 link
-types (resonance, isomorphism, game theory, gradients...) and a growing dataset of
-"task → link → solution" examples for LLM fine-tuning.
+**Supraponderal Reasoning** — a methodology where solutions are found through structural cross-domain links rather than parameter tuning. The repo includes:
+- A closed dictionary of 21 link types (resonance, isomorphism, game theory, gradients, etc.).
+- A growing dataset of "task → link → solution" examples.
+- An SFT dataset in JSONL format (11 seed examples) for fine-tuning models on supraponderal reasoning.
+
