@@ -64,6 +64,9 @@
 
 ## Автор
 
-**Виктор [Кондрашевич]** (GitHub: [@ViktorViktor-1977](https://github.com/ViktorViktor-1977))  
+**Виктор [Фамилия]**  
+ORCID: [0009-0009-9276-2216](https://orcid.org/0009-0009-9276-2216)
+GitHub: [@ViktorViktor-1977](https://github.com/ViktorViktor-1977)  
+
 Автор методологии Supraponderal Reasoning и концепции надвесовых связей.  
 Первая публикация: 2026 г. Лицензия: MIT.
