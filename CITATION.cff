@@ -5,7 +5,8 @@ type: software
 authors:
   - family-names: "Kondrashevich"
     given-names: "Viktor"
-repository-code: "https://github.com/твой-логин/supraponderal-reasoning"
+    orcid: "https://orcid.org/0009-0009-9276-2216"
+repository-code: "https://github.com/ViktorViktor-1977/supraponderal-reasoning"
 keywords:
   - reasoning
   - chain-of-thought
